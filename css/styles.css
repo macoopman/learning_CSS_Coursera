@@ -15,7 +15,6 @@ h2{
 }
 
 
-
 header {
 	background: #00b7ea;
 	text-align: center;
@@ -60,6 +59,12 @@ nav {
 	font-family: Arial, "Times New Roman", serif;
 	font-size: 150%;
 	
+}
+
+nav a{
+	display: inline-block;
+	background: #FFFFFF;
+	width: 22%;
 }
 
 
