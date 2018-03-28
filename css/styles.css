@@ -5,28 +5,6 @@ body {
 
 }
 
-h1 {
-	color: #ffffff;
-}
-
-h2{
-	color: #666666;
-	background: #00b7ea;
-}
-
-
-header {
-	background: #00b7ea;
-	text-align: center;
-	padding: 15px;
-}
-
-footer{
-	background: #00b7ea;
-	clear: both;
-
-}
-
 header, footer {
 	background: #666666;
 	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
@@ -35,15 +13,42 @@ header, footer {
 	background: linear-gradient(#666666 0%, #00b7ea 100%); 
 }
 
-img{
-	width: 125px;
+header {
+	text-align: center;
+	padding: 15px;
 }
 
-section {
+h1 {
+	color: #ffffff;
+}
+
+nav {
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+
+nav a{
 	display: inline-block;
-	width: 30%;
+	background: #FFFFFF;
+	width: 22%;
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+.half {
+	width: 45%;
 	margin-right: 2%;
+	display: inline-block;
 	float: left;
+}
+
+
+.whole{
+	clear:both;
 }
 
 summary{
@@ -54,17 +59,23 @@ details{
 	font-style: italic;
 }
 
-nav {
-	font-variant: small-caps;
-	font-family: Arial, "Times New Roman", serif;
-	font-size: 150%;
-	
+footer{
+	clear: both;
 }
 
-nav a{
-	display: inline-block;
-	background: #FFFFFF;
-	width: 22%;
+
+img{
+	width: 125px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
